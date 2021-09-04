@@ -98,9 +98,9 @@ offline = false
 publik = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
-NamaBot = settings.NamaBot
-NomorOwner = settings.NomorOwner
-NamaOwner = settings.NamaOwner
+NamaBot = settings.RyunaChan
+NomorOwner = settings.6281284160630
+NamaOwner = settings.Ysupp
 multi = true
 nopref = false
 
@@ -250,11 +250,11 @@ try {
                 api: 'Error'
 			},
 			only: {
-				group: '*「❗」KHUSUS GROUP  NJIRR*',
-				ownerG: '*「❗」KHUSUS  OWNER GROUP  NJIR*',
-				ownerB: '*「❗」KHUSUS OWNER GROUP , LU SIAPA NJIR?*',
-				admin: '*「❗」KHUSUS ADMIN GROUP , LU SIAPA NJIR?*',
-				Badmin: '*「❗」WOY BOT  HARUS JADI ADMIN.!!'
+				group: '*「❗」KHUSUS GROUP KAK:3*',
+				ownerG: '*「❗」KHUSUS  OWNER GROUP  KAK:3*',
+				ownerB: '*「❗」KHUSUS OWNER GROUP , KAMU SIAPA YAW?*',
+				admin: '*「❗」KHUSUS ADMIN GROUP , KAMU SIAPA YAW?*',
+				Badmin: '*「❗」JADIKAN AKU ADMIN,B-BAKA UCUP-KUN!!'
 			}
 		}
 		const botNumber = denz.user.jid
@@ -838,7 +838,7 @@ return reply(parse)
         	if (!mek.key.fromMe){
 				if (!isGroup) return
 				if (!isAntiLink) return
-				if (isGroupAdmins) return reply('Atasan grup mah bebas yakan :v')
+				if (isGroupAdmins) return reply('TANGAN KANAN OWNER GRUP BEBAS HAHAHA')
 				denz.updatePresence(from, Presence.composing)
 				var kic = `${sender.split("@")[0]}@s.whatsapp.net`
 				reply('Link terdeteksi, Auto kick!')
