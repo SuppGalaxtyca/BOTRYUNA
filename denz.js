@@ -98,9 +98,9 @@ offline = false
 publik = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
-NamaBot = settings.RyunaChan
-NomorOwner = settings.6281284160630
-NamaOwner = settings.Ysupp
+NamaBot = settings.NamaBot
+NomorOwner = settings.NomorBot
+NamaOwner = settings.NamaBot
 multi = true
 nopref = false
 
